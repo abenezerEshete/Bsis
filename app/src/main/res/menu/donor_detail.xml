@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/menu_edit"
+        android:orderInCategory="100"
+        android:title="@string/edit_donor"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/menu_void_donor"
+        android:title="@string/void_donor" />
+    <item
+        android:id="@+id/menu_save"
+        android:title="@string/save"
+        android:visible="false" />
+
+    <item
+        android:id="@+id/menu_cancel"
+        android:title="@android:string/cancel"
+        android:visible="false" />
+</menu>
